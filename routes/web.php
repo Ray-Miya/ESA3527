@@ -1,8 +1,16 @@
+
 <?php
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\MentorController;
 
-Route::get('/', [UserController::class, 'index']); // トップページ
+// トップページ
+Route::get('/', [UserController::class, 'index']);
 
-Route::get('/sign-up', [UserController::class, 'signup']); // 新規登録ページ
+// 新規登録ページ
+Route::get('/sign-up', [UserController::class, 'signup']);
+
+// メンター一覧ページ
+Route::get('/mentors', [MentorController::class, 'index']);
+

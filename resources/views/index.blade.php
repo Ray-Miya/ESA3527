@@ -27,8 +27,10 @@
     <h1 class="logo"><a href="./"><img src="./img/logo.png" alt="ESA ACADEMY 生徒管理システム" class="img-fluid"></a></h1>
     <nav>
       <ul>
-        <li><a href="./sign-up" class="sign-up-btn"><i class="fas fa-plus"></i>新規登録画面</a></li>
-        <li><a href="./" class="top-page-btn"><i class="fas fa-home"></i>トップページ</a></li>
+        <li><a href="{{ asset('./sign-up')}}" class="sign-up-btn"><i class="fas fa-plus"></i>新規登録画面</a></li>
+        <li><a href="{{ asset('/mentors') }}" class="M-page-btn"><i class="fas fa-plus"></i>メンターリスト</a>
+        <li><a href="{{ asset('./')}}"  class="top-page-btn"><i class="fas fa-home"></i>トップページ</a></li>
+
       </ul>
     </nav>
   </div>

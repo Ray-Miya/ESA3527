@@ -88,12 +88,40 @@ ul {
   transition: all .3s;
 }
 
+.M-page-btn {
+  display: block;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: .1em;
+  background: -webkit-transition(linear, left top, right top, from(#FFD56C), to(#FFBA31));
+  background: linear-gradient(90deg, #FFD56C 0%, #FFBA31 100%);
+  padding: 16px 0;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 0 14px #46ADD2;
+          box-shadow: 0 0 14px #46ADD2;
+  margin: 0 auto 28px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
 .sign-up-btn i {
   font-size: 13px;
   padding-right: 4px;
 }
 
+.M-page-btn i {
+  font-size: 13px;
+  padding-right: 4px;
+}
+
 .sign-up-btn:hover {
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 0.75;
+}
+
+.M-page-btn:hover {
   color: #ffffff;
   text-decoration: none;
   opacity: 0.75;
